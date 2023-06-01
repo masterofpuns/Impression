@@ -10,3 +10,6 @@ In deze folder vind je een aantal files die toebehoren aan de functionaliteit di
 - Beide folders en files maken onderdeel uit van een groter project dat wij voor een klant hebben ontwikkeld waarin 2 systemen synchroon moeten worden gehouden. Dit ligt met name ten grondslag aan de gesplitste omgevingen waarin deze systemen staan. 1 systeem draait op een interne server van de klant waarbij alleen toegang is verschaft aan werknemers (of uitzonderingen), het anndere systeem draait wel op een publiekelijk te benaderen server. In deze laatste omgeving kunnen relaties (klanten van onze klant) gegevens inzien en wijzigigen van hun deelname bij onze klant. Om de gegevens synchroon te houden in beide systemen hebben wij functionaliteit gebouwd om de gegevens van de ene server over te zetten naar de andere. 
 - In beide folders heb ik de files onderverdeeld in een aantal submappen die, op vrij kale manier, het principe van MVC simuleren. In realtime gebruik, zit er meer gelaagdheid in het inhuis gemaakte framework.
 - Geen van de folders heeft de mogelijkheid om bekeken te worden in een browser, omdat daar te veel verschillende files voor moeten worden ingeladen. De verschillende files zijn puur ter illustratie.
+
+## Take away
+Ik hoop hiermee in ieder geval een klein beeld te kunnen schetsen van mijn ervaring en niveau
