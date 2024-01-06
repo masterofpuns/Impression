@@ -1,15 +1,33 @@
-# Contents
+# Impression
 
-## Digital registration
-In deze folder vind je verschillende files die toebehoren aan een project t.b.v. digitale registratie van personen die willen deelnemen in vastgoed fondsen. De wens van de klant was een digitale omgeving te hebben waarin (nieuwe) relaties en/of participanten zich kunnen aanmelden voor verschillende fondsen. 
+## Voorwoord
+Middels dit project hoop ik een beeld te kunnen schetsen van mijn vaardigheden op de gebieden van:
+- PHP
+- MySQL
+- JavaScript
+- Object Oriented Programming
+- Model / View / Controller principes
+- Design Patters
+- Werken volgens PHP Coding standaarden
+- Alle randzaken rondom HTML / CSS die komen kijken bij het gebruik van een Framework
+- Kennis van werken met PHP Frameworks. Een kleine kanttekening daarbij is dat ik reeds nog niet heb mogen werken met frameworks zoals Laravel of Symfony. Uiteraard is de wens er wel hier mee aan de slag te mogen.
 
-## API / Sync
-In deze folder vind je een aantal files die toebehoren aan de functionaliteit die we hebben gebouwd om de 2 systemen synchroon te houden. In de ApiController is functionaliteit terug te vinden voor de ontvangende kant. Hierin wordt de afhandeling van gegevens wijzigingen geïnitieerd. In de CPortalSync vind je functionaliteit die wordt uitgevoerd wanneer wijzigingen vanuit het publieke systeem worden binnen gehaald en moeten worden verwerkt in de interne omgeving. Tijdens deze verwerking vinden eveneens nog verzoeken naar de eerder genoemde API plaats om eventuele wijzigingen en of e-mails in gang te zetten vanuit de publieke omgeving.
+PS Werken met Composer en NPM libraries behoort reeds tot de vaardigheden, echter zijn deze betreffende folders niet (of niet goed) terug te vinden in dit project. Binnen het framework van mijn werkgever wordt er gewerkt met Gruntfiles waarbij verworven functionaliteit uit genoemde libraries wordt geïntegreerd in een groot distributiebestand.
 
-## Achtergrond informatie
-- Beide folders en files maken onderdeel uit van een groter project dat wij voor een klant hebben ontwikkeld waarin 2 systemen synchroon moeten worden gehouden. Dit ligt met name ten grondslag aan de gesplitste omgevingen waarin deze systemen staan. 1 systeem draait op een interne server van de klant waarbij alleen toegang is verschaft aan werknemers (of uitzonderingen), het anndere systeem draait wel op een publiekelijk te benaderen server. In deze laatste omgeving kunnen relaties (klanten van onze klant) gegevens inzien en wijzigigen van hun deelname bij onze klant. Om de gegevens synchroon te houden in beide systemen hebben wij functionaliteit gebouwd om de gegevens van de ene server over te zetten naar de andere. 
-- In beide folders heb ik de files onderverdeeld in een aantal submappen die, op vrij kale manier, het principe van MVC simuleren. In realtime gebruik, zit er meer gelaagdheid in het inhuis gemaakte framework.
-- Geen van de folders heeft de mogelijkheid om bekeken te worden in een browser, omdat daar te veel verschillende files voor moeten worden ingeladen. De verschillende files zijn puur ter illustratie.
+## Structuur
+Dit project representeert een deel van het MVC principe dat we bij mijn huidige werkgever hanteren. Essentiële lagen, die generiek zijn en de basis vormen van het framework, heb ik ter bescherming van het framework weg gelaten uit dit project. De volgende folders vormen samen de hoogste laag van het framework, namelijk App (de Applicatie laag):
+- Components (Hier zijn de services te vinden waarin functionaliteiten worden opgenomen die gegevens ophaalt en verzameld en daarmee kan worden hergebruikt op verschillende plekken in het framework)
+- Config (Deze folder bevat een config bestand waarin constanten worden opgenomen die door de applicatie worden gebruikt, waaronder gegevens van de database)
+- Controllers (Deze folder bevat de controllers die de afhandeling van de site verzoeken verzorgt. Een endpoint verzoek, URLs, wordt uiteindelijk doorgestuurd naar de correlerende controller en actie die daar bij hoort)
+- Models (Deze folder bevat alle classen die de betreffende entiteiten representeren welke thuis horen in dit project en bekend zijn in de database)
+- Templates (Deze folder bevat de betreffende templates die worden ingeladen op het moment dat alle afhandelingen zijn gedaan in de controllers en bevat daarmee de informatie die de gebruiker te zijn krijgt op zijn / haar scherm. Binnen deze folder zijn assets (bouwstenen zoals images of css), partials (herbruikbare bouwstenen die delen HTML bevatten) en views terug te vinden)
+- Traits (Deze folder bevat een aantal classes die functionaliteit bevatten die kan worden hergebruikt op verschillende plekken / classen binnen het framework, maar niet op zichzelfstaande functionaliteit bevatten.
+- Vendors (Deze folder bevat normaal gezien de vanuit composer geïnstalleerde libraries)
+
+## Aanvullende informatie
+- Dit project is puur informatief opgezet.
+- Het bevat daarmee ook geen endpoint waarbij het project vanuit het oogpunt van de gebruiker bekeken kan worden.
+- De code is slechts ter illustratie van mijn vaardiheden en zal daarmee ook vanuit dit oogpunt moeten worden beoordeelt. 
 
 ## Take away
-Ik hoop hiermee in ieder geval een klein beeld te kunnen schetsen van mijn ervaring en niveau
+Ik hoop hiermee in ieder geval een klein beeld te kunnen schetsen van mijn ervaring, niveau en vaardiheden.
