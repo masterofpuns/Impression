@@ -27,7 +27,7 @@ Dit project representeert een deel van het MVC principe dat we bij mijn huidige 
 ## Aanvullende informatie
 - Dit project is puur informatief opgezet.
 - Het bevat daarmee ook geen endpoint waarbij het project vanuit het oogpunt van de gebruiker bekeken kan worden.
-- De code is slechts ter illustratie van mijn vaardiheden en zal daarmee ook vanuit dit oogpunt moeten worden beoordeelt. 
+- De code is slechts ter illustratie van mijn vaardigheden en zal daarmee ook vanuit dit oogpunt moeten worden beoordeelt. 
 
 ## Take away
 Ik hoop hiermee in ieder geval een klein beeld te kunnen schetsen van mijn ervaring, niveau en vaardiheden.
